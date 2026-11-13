@@ -32,7 +32,6 @@ This is a **completed example of a focused GRC control assessment**, not a claim
 
 5. Compare [`outputs/test_results.csv`](outputs/test_results.csv) and [`outputs/summary.json`](outputs/summary.json) with the narrative [`assessment/working_paper.md`](assessment/working_paper.md).
 6. Read the [`assessment/management_summary.md`](assessment/management_summary.md) and [`assessment/remediation_plan.csv`](assessment/remediation_plan.csv).
-7. Try the follow-on tasks in [`practice/your_turn.md`](practice/your_turn.md).
 
 ## Repository guide
 
@@ -43,7 +42,6 @@ src/            Reproducible account-disable timing check
 outputs/        Generated, versioned test results for transparent review
 tests/          Unit tests for edge cases
 assessment/     Working paper, findings, recommendation, action tracking
-practice/       Extend the assessment yourself
 ```
 
 ## Framework relationship
