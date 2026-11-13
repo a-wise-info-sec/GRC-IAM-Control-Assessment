@@ -2,7 +2,7 @@
 
 ## Business context
 
-**Harborline Services** is an invented mid-sized services organization. Employees use an internal directory ("Directory") and a CRM platform ("CRM") to access business information. Eight staff departures occurred during October 2026. This training engagement is designed to test one termination-related IAM control, not to create Harborline's whole GRC program.
+**Harborline Services** is an invented mid-sized services organization. Employees use an internal directory ("Directory") and a CRM platform ("CRM") to access business information. Eight staff departures occurred during October 2026. This engagement is designed to test one termination-related IAM control.
 
 ## System and time scope
 
@@ -12,11 +12,9 @@
 - **Times:** All timestamps are in **UTC** to avoid daylight-saving ambiguity.
 - **Exclusions:** Other SaaS services, service accounts, contractors, accounts without a known employee ID, privileged-access recertification, onboarding and access approval testing.
 
-## Fictional policy excerpt (control owner: Identity Operations)
+## Policy excerpt (control owner: Identity Operations)
 
-> **HL-IAM-04 — Access Termination:** All in-scope employee accounts must be disabled no later than **24 elapsed hours** after the employee's effective termination timestamp provided by HR. Identity Operations must retain reliable, timestamped evidence demonstrating when disablement occurred.
-
-This is an **invented company requirement**, not a universal NIST, SOC 2, banking or PCI DSS deadline.
+> **HL-IAM-04 — Access Termination:** All in-scope employee accounts must be disabled no later than 24 elapsed hours after the employee's effective termination timestamp provided by HR. Identity Operations must retain reliable, timestamped evidence demonstrating when disablement occurred.
 
 ## Assumed source extracts
 
@@ -25,7 +23,7 @@ This is an **invented company requirement**, not a universal NIST, SOC 2, bankin
 | `hr_terminations.csv` | HR-authoritative list and effective departure times | HR completeness has not been independently demonstrated |
 | `account_inventory.csv` | Employee-to-account mapping for two systems | Could omit shadow accounts or other systems |
 | `disable_events.csv` | Recorded disable timestamps and change IDs | Some event records are missing; extract completeness not verified |
-| `account_state_snapshot.csv` | Current active/disabled status at fixed snapshot | Cannot establish *when* a disabled account was disabled |
+| `account_state_snapshot.csv` | Current active/disabled status at fixed snapshot | Cannot establish when a disabled account was disabled |
 
 ## Assessor questions
 
