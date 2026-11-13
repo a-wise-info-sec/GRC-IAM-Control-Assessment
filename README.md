@@ -67,10 +67,4 @@ NIST sources:
 
 ## Why this project exists
 
-A good GRC assessment isn't just a spreadsheet with green/red statuses. It shows how a documented requirement is connected to actual evidence and how an assessor reaches a defensible conclusion when records are late, missing, or contradictory.
-
-### Resume / interview description (use only after reviewing and completing the exercise)
-
-> **Independent GRC Project (Simulated):** Evaluated a fictional 24-hour access termination control using HR and identity-system extracts; reconciled 12 account records, reproduced test results with Python, separated confirmed failures from insufficient evidence, and documented remediation recommendations.
-
-**Publication:** You can upload this folder as your own **independent simulated exercise** after reviewing and making it yours. Do not present it as work performed at a previous employer.
+Just an independent project to show how a documented requirement is connected to actual evidence and how an assessor reaches a defensible conclusion when records are late, missing, or contradictory.
