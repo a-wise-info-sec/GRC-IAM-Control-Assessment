@@ -12,7 +12,7 @@ Determine whether the in-scope Directory and CRM account termination control ope
 
 ## 2. Procedure and evidence
 
-Reconcile `hr_terminations.csv` to `account_inventory.csv`, then join `disable_events.csv` and `account_state_snapshot.csv` by account ID. Calculate elapsed hours in UTC and compare to the fictional 24-hour requirement. A disabled snapshot is insufficient to establish timing without an event timestamp. The script provides repeatable arithmetic; a real assessor would verify data provenance and obtain supporting tickets/logs.
+Reconcile `hr_terminations.csv` to `account_inventory.csv`, then join `disable_events.csv` and `account_state_snapshot.csv` by account ID. Calculate elapsed hours in UTC and compare to the 24-hour requirement. A disabled snapshot is insufficient to establish timing without an event timestamp.
 
 ## 3. Test results
 
@@ -22,9 +22,9 @@ Reconcile `hr_terminations.csv` to `account_inventory.csv`, then join `disable_e
 | Late | 2 | A102-CRM (42 hours), A104-CRM (25 hours) |
 | Active | 1 | A103-CRM (privileged according to inventory) |
 | Insufficient evidence | 1 | A106-DIR (disabled at snapshot; no disabling event) |
-| **Total** | **12** | |
+| Total | 12 | |
 
-**Evidence-supported on-time results:** 8 of 12 account records. Do **not** describe this ratio as a statistically representative enterprise compliance rate. It measures the supplied records only and includes one inconclusive record.
+**Evidence-supported on-time results:** 8 of 12 account records.
 
 ## 4. Findings
 
@@ -53,7 +53,7 @@ Reconcile `hr_terminations.csv` to `account_inventory.csv`, then join `disable_e
 
 ## 5. Operating effectiveness conclusion
 
-**Not effective for the tested population and period**, based on two evidenced late disabling events and one account still active at the assessment snapshot. The missing disable event is separately an **evidence sufficiency issue**; it is not used as proof of an additional failure.
+**Not effective for the tested population and period**, based on two evidenced late disabling events and one account still active at the assessment snapshot. The missing disable event is separately an evidence sufficiency issue; it is not used as proof of an additional failure.
 
 This conclusion is limited to the two named platforms and the supplied inventory, subject to verification of evidence integrity and population completeness. No claim is made about all accounts, every system, the organization overall, or a certified audit opinion.
 
@@ -63,4 +63,6 @@ This conclusion is limited to the two named platforms and the supplied inventory
 - Request supporting identity platform logs, ticket approvals and role ownership for exceptions.
 - Check login activity after departure, reset sessions, and review token/API access as appropriate.
 - Determine root cause and risk ratings under an approved organizational methodology.
-- Obtain remediation proof and retest future departures. **No remediation verification is claimed in this simulation.**
+- Obtain remediation proof and retest future departures.
+-
+- **No remediation verification is claimed in this simulation.**
