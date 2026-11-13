@@ -1,0 +1,9 @@
+employee_id,employee_name,department,terminated_at_utc
+EMP-101,Maya Chen,Finance,2026-10-02T09:00:00Z
+EMP-102,Jonah Patel,Operations,2026-10-04T15:30:00Z
+EMP-103,Lena Ortiz,Sales,2026-10-07T10:15:00Z
+EMP-104,Ezra Brooks,Support,2026-10-10T17:00:00Z
+EMP-105,Priya Moore,HR,2026-10-13T12:00:00Z
+EMP-106,Owen Reed,Operations,2026-10-17T08:45:00Z
+EMP-107,Talia Grant,Finance,2026-10-20T14:00:00Z
+EMP-108,Nolan Price,Sales,2026-10-24T16:00:00Z

@@ -1,0 +1,13 @@
+employee_id,account_id,platform,privileged,terminated_at_utc,disabled_at_utc,hours_elapsed,snapshot_status,result,rationale,change_ticket_id
+EMP-101,A101-CRM,CRM,No,2026-10-02T09:00:00Z,2026-10-02T18:00:00Z,9.00,DISABLED,PASS,Disable event 9.00 hours after departure,CHG-2002
+EMP-101,A101-DIR,Directory,No,2026-10-02T09:00:00Z,2026-10-02T10:00:00Z,1.00,DISABLED,PASS,Disable event 1.00 hours after departure,CHG-2001
+EMP-102,A102-CRM,CRM,No,2026-10-04T15:30:00Z,2026-10-06T09:30:00Z,42.00,DISABLED,LATE,Disable event 42.00 hours after departure,CHG-2004
+EMP-102,A102-DIR,Directory,No,2026-10-04T15:30:00Z,2026-10-05T15:00:00Z,23.50,DISABLED,PASS,Disable event 23.50 hours after departure,CHG-2003
+EMP-103,A103-CRM,CRM,Yes,2026-10-07T10:15:00Z,,,ACTIVE,ACTIVE,No disable event; account active at snapshot,
+EMP-103,A103-DIR,Directory,No,2026-10-07T10:15:00Z,2026-10-07T14:00:00Z,3.75,DISABLED,PASS,Disable event 3.75 hours after departure,CHG-2005
+EMP-104,A104-CRM,CRM,No,2026-10-10T17:00:00Z,2026-10-11T18:00:00Z,25.00,DISABLED,LATE,Disable event 25.00 hours after departure,CHG-2007
+EMP-104,A104-DIR,Directory,No,2026-10-10T17:00:00Z,2026-10-11T08:00:00Z,15.00,DISABLED,PASS,Disable event 15.00 hours after departure,CHG-2006
+EMP-105,A105-DIR,Directory,No,2026-10-13T12:00:00Z,2026-10-13T15:30:00Z,3.50,DISABLED,PASS,Disable event 3.50 hours after departure,CHG-2008
+EMP-106,A106-DIR,Directory,No,2026-10-17T08:45:00Z,,,DISABLED,INSUFFICIENT_EVIDENCE,Account disabled at snapshot; no disable timestamp,
+EMP-107,A107-DIR,Directory,No,2026-10-20T14:00:00Z,2026-10-20T18:00:00Z,4.00,DISABLED,PASS,Disable event 4.00 hours after departure,CHG-2009
+EMP-108,A108-DIR,Directory,No,2026-10-24T16:00:00Z,2026-10-25T11:00:00Z,19.00,DISABLED,PASS,Disable event 19.00 hours after departure,CHG-2010

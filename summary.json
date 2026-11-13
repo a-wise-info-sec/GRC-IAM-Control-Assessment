@@ -1,0 +1,16 @@
+{
+  "scenario": "Harborline Services \u2014 synthetic October 2026 terminations",
+  "policy_deadline_hours": 24,
+  "employee_count": 8,
+  "account_count": 12,
+  "counts": {
+    "PASS": 8,
+    "LATE": 2,
+    "ACTIVE": 1,
+    "INSUFFICIENT_EVIDENCE": 1,
+    "CONFLICTING_EVIDENCE": 0,
+    "REVIEW_REQUIRED": 0
+  },
+  "assessment_conclusion": "NOT_EFFECTIVE_FOR_TESTED_SCOPE",
+  "limitation": "Provided population and event logs have not been independently validated for completeness."
+}

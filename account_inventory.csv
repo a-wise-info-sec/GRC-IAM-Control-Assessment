@@ -1,0 +1,13 @@
+employee_id,account_id,platform,privileged
+EMP-101,A101-DIR,Directory,No
+EMP-101,A101-CRM,CRM,No
+EMP-102,A102-DIR,Directory,No
+EMP-102,A102-CRM,CRM,No
+EMP-103,A103-DIR,Directory,No
+EMP-103,A103-CRM,CRM,Yes
+EMP-104,A104-DIR,Directory,No
+EMP-104,A104-CRM,CRM,No
+EMP-105,A105-DIR,Directory,No
+EMP-106,A106-DIR,Directory,No
+EMP-107,A107-DIR,Directory,No
+EMP-108,A108-DIR,Directory,No

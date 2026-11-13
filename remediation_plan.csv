@@ -1,0 +1,5 @@
+finding_id,issue,recommended_action,owner_role_fictional,target_date_utc,verification_evidence,status
+HL-F01,Active terminated CRM account,"Verify and restrict account, invalidate sessions, review access activity and other similar accounts",CRM Application Owner,2026-11-06,Dated status export; access logs; remediation ticket; investigation notes,Proposed - not verified
+HL-F02,Late CRM offboarding,"Review HR->CRM ticket workflow, implement overdue alerts and control owner sign-off",Identity Operations Lead,2026-11-20,Revised procedure; alert rules; sample of later termination tickets,Proposed - not verified
+HL-O01,No event supporting disable timing,"Recover authoritative disable event, validate log retention and export completeness",Directory Administrator,2026-11-12,Native audit event or approved ticket with independently verified timestamp,Evidence requested
+HL-ALL,Population completeness not confirmed,Independently reconcile HR and platform inventory/system list,GRC Analyst and IAM Owner,2026-11-20,Approved in-scope system list; reconciled roster with exceptions signed off,Proposed - not verified
